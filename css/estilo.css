@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo {
+    width: 150px;
+}
+
+.lasFuentes {
+    font-size: 20px;
+    padding-left: 2rem;
+}
+
+.lasFuentes li a:hover {
+    background-color: gray;
+    color: black;
+    ;
+
+}
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.imgCarrosel {
+    height: 350px;
+    object-fit: cover;
+}
+
+.letterCla {
+    background-color: grey;
+    height: 55px;
+    text-transform: uppercase;
+}
+
+.letterTwo {
+    margin-top: 70px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: cursive;
+}
+
+.losProductos {
+    background-color: whitesmoke;
+    text-align: center;
+    text-transform: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.lasTendencias {
+    margin-top: 100px;
+}
+
+.laSeccion {
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    background-color: #5499D7;
+}
+
+.laColumna {
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.secFem {
+    text-align: center;
+    margin-top: 30px;
+    background-color: pink;
+    text-transform: uppercase;
+}
+
+.lasZapas {
+    margin-top: 40px;
+    text-align: center; 
+    text-transform: uppercase;
+    background-color: #E6E572;
+}
+
+.laPag {
+    background-color: #FFF9F9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.losContactos {
+    text-decoration:underline;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.losContactdos {
+    margin-top: 50px;
+}
+
+.elCorreo {
+    margin-top: 50px
+}
+
+.losBloq {
+    margin-top: 90px;
+    text-transform: uppercase;
+}
+
+.laSucursal {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.elMapa {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.laZona {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;   
+}
+
+.lasOfertas {
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: blue;
+    color: whitesmoke;
+    
+}
+
+.laPagDos {
+    background-color: #A1A1A1;
+}
+
+.laPagTres {
+    background-color: #A1A1A1;
+    padding: 20px;
+    border-radius: 40px;
+}
+
+.lasOfertasDos {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.lasTendenciasUno {
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 25px;
+    border-radius: 40px;
+    border-color: aqua;
+    background-color: #999696;
+    padding: 5px;
+    text-transform: uppercase;
+
+}
+
+.elPrecio {
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: #B6B3B3
+
+}
+
+.laColumnaDos {
+    margin-left: 5%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.losPreciosDos {
+    text-decoration: line-through;
+}
+
+.losColores {
+    background-color: gray;
+}
+
+.colorAgr {
+    background-color: orangered;
+    color: white;
+}
+
+.colorAgr:hover {
+    background-color: gray;
+    color: white;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #848383;
+    margin-top: auto;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 5px 0px;
+}
+
+.pie-pagina .grupo-1 .box h2{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: center;
+    background-color: #0d2033;
+    text-align: center;
+    justify-content: center;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 2px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.textoFooter {
+    background-color: #575757;
+    border-radius: 10px;
+}
+
+.elInicio {
+    margin-top: 50px;
+    margin-left: 1px;
+    margin-bottom: 100px;
+}
+
+.accTen {
+    margin-top: 50px;
+    background-color: #FFCD7D;
+    border-radius: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding: 5px;
+    color: black;
+}
