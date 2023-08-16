@@ -1,112 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ofertas</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
- 
-    <link rel="stylesheet" href="../css/estilo.css">
-    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
-    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-</head>
-<body class="container-fluid laPag">
-    <header class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-          <img class="logo" src="../img/tienda2.jpg" alt="logo">
-            </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <nav class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto lasFuentes">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../html/ofertas.html">Ofertas</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../html/tienda.html">Tienda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../html/contacto.html">Contacto</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../html/sucursales.html">Surcursales</a>
-              </li>
-            </ul>
-        </nav>
-        </div>
-     </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ofertas</title>
 
-     <div> <h2 class="lasOfertas"> Ofertas del dia </h2> </div>
-     <div> <h3 class="lasTendenciasUno"> Tendencias Actuales </h3> </div>
-       
-     <div class="row laColumna">
-      <div class="col-x1-3 col-md-3 col-sm">
-        <div class="card" style="width: 18rem;">
-          <img src="../img/conjuntodepoferta.jpg" class="card-img-top" alt="conjunto">
-          <div class="card-body">
-            <h3 class="card-title">Conjunto Deportivo</h3>
-            <p class="card-text elPrecio">%15999$ - <span class="losPreciosDos">21999$</span></p>
-            <a href="#" class="btn colorAgr">Agregar al carrito</a></div>
-        </div>
-      </div>
-      <div class="col-x1-3 col-md-3 col-sm">
-        <div class="card" style="width: 18rem;">
-          <img src="../img/ropadepoferta.jpg" class="card-img-top" alt="conjunto">
-          <div class="card-body">
-            <h3 class="card-title">Conjunto Termico</h3>
-            <p class="card-text elPrecio">%11999$ - <span class="losPreciosDos">13999$</span></p>
-            <a href="#" class="btn colorAgr">Agregar al carrito</a> </div>
-        </div>
-      </div>
-      <div class="col-x1-3 col-md-3 col-sm">
-        <div class="card" style="width: 18rem;">
-          <img src="../img/conjuntodepofertados.jpg" class="card-img-top" alt="conjunto">
-          <div class="card-body">
-            <h3 class="card-title">Conjunto Deportivo</h3>
-            <p class="card-text elPrecio">%16999$ - <span class="losPreciosDos">21999$</span></p>
-            <a href="#" class="btn colorAgr">Agregar al carrito</a> </div>
-        </div>
-      </div>
-      <div class="col-x1-3 col-md-3 col-sm">
-        <div class="card" style="width: 18rem;">
-          <img src="../img/ropadepofertacuatro.jpg" class="card-img-top" alt="conjunto">
-          <div class="card-body">
-            <h3 class="card-title">Conjunto termico</h3>
-            <p class="card-text elPrecio">%15999$ - <span class="losPreciosDos">21999$</span></p>
-            <a href="#" class="btn colorAgr">Agregar al carrito</a> </div>
-        </div>
-       </div>
-      </div>
-      
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" />
 
-      <footer class="pie-pagina">
-        <div class="grupo-1">
+        <link rel="stylesheet" href="../css/estilo.css" />
+        <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon" />
+        <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    </head>
+    <body class="laPag">
+        <header class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img class="logo" src="../img/tienda2.jpg" alt="logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto lasFuentes">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/ofertas.html">Ofertas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/sucursales.html">Surcursales</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section class="content sau">
+        <div><h2 class="title">Productos En Oferta</h2></div>
+        <div class="boxContainer">
             <div class="box">
+                <i class="fab fa-angular"></i>
+                <h3 class="laRopaBox">Tu ropa de confianza</h3>
+                <p>calidad asegurada</p>
             </div>
             <div class="box">
-                <h2 class="textoFooter">Siguenos</h2>
-                <div class="red-social">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-reddit"></a>
+                <i class="fab fa-angular"></i>
+                <h3 class="laRopaBox">Descuentos exclusivos</h3>
+            </div>
+            <div class="box">
+                <i class="fab fa-angular"></i>
+                <h3 class="laRopaBox">Compra ahora</h3>
+                <p>calidad asegurada</p>
+            </div>
+    </section>
+    <h2 class="losProductos">Nuestas ofertas</h2>
+
+    <div class="row laColumna">
+        <div class="col-xl-3 col-md-6 col-12">
+            <div class="cardDos" style="width: 18rem; margin: 2rem auto">
+                <img src="../img/ropadepoferta.jpg" class="card-img-top" alt="conjunto" />
+                <div class="card-body">
+                    <h3 class="card-title">Conjunto Deportivo</h3>
+                    <p class="laCardOferta">14999$</p>
+                    <a href="#" class="btn colorAgr">Agregar al carrito</a>
                 </div>
             </div>
         </div>
-        <div class="grupo-2">
-            <small>&copy; 2023 <b>Shop Company</b> - Todos los Derechos Reservados.</small>
+        <div class="col-xl-3 col-md-6 col-12">
+            <div class="cardDos" style="width: 18rem; margin: 2rem auto">
+                <img src="../img/ropadepofertacuatro.jpg" class="card-img-top" alt="conjunto" />
+                <div class="card-body">
+                    <h3 class="card-title">Conjunto Termico</h3>
+                    <p class="laCardOferta">12499$</p>
+                    <a href="#" class="btn colorAgr">Agregar al carrito</a>
+                </div>
+            </div>
         </div>
-    </footer>
-      
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-</body>
-</html>
+        <div class="col-xl-3 col-md-6 col-12">
+            <div class="cardDos" style="width: 18rem; margin: 2rem auto">
+                <img src="../img/ropadepoofertatres.jpg" class="card-img-top" alt="conjunto" />
+                <div class="card-body">
+                    <h3 class="card-title">Conjunto Deportivo</h3>
+                    <p class="laCardOferta">11999$</p>
+                    <a href="#" class="btn colorAgr">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-12">
+            <div class="cardDos" style="width: 18rem; margin: 2rem auto">
+                <img src="../img/ropadepoofertasesis.jpg" class="card-img-top" alt="conjunto" />
+                <div class="card-body">
+                    <h3 class="card-title">Conjunto termico</h3>
+                    <p class="laCardOferta">11999$</p>
+                    <a href="#" class="btn colorAgr">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 class="losProductos">Precios Exclusivos</h2>
+    <div class="row laColumna">
+        <div class="col-xl-4 col-md-6 col-12">
+            <div class="cardTres" style="width: 18rem; margin: 2rem auto">
+                <img src="../img/ropadepoofertacinco.jpg" class="card-img-top" alt="conjunto" />
+                <div class="card-body">
+                    <h3 class="card-title">Conjunto Deportivo</h3>
+                    <p class="laCardOferta">14999$</p>
+                    <a href="#" class="btn colorAgr">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-12">
+            <div class="cardTres" style="width: 18rem; margin: 2rem auto">
+                <img src="../img/ropadepoofertados.jpg" class="card-img-top" alt="conjunto" />
+                <div class="card-body">
+                    <h3 class="card-title">Conjunto Termico</h3>
+                    <p class="laCardOferta">12499$</p>
+                    <a href="#" class="btn colorAgr">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-4 col-md-6 col-12">
+            <div class="cardTres" style="width: 18rem; margin: 2rem auto">
+                <img src="../img/ropadepoofertauno.jpg" class="card-img-top" alt="conjunto" />
+                <div class="card-body">
+                    <h3 class="card-title">Conjunto Deportivo</h3>
+                    <p class="laCardOferta">11999$</p>
+                    <a href="#" class="btn colorAgr">Agregar al carrito</a>
+                </div>
+            </div>
+        </div>
+     </div>
 
-</body>
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box"></div>
+                <div class="box">
+                    <h2 class="textoFooter">Siguenos</h2>
+                    <div class="red-social">
+                        <a href="#" class="fa fa-facebook"></a>
+                        <a href="#" class="fa fa-instagram"></a>
+                        <a href="#" class="fa fa-twitter"></a>
+                        <a href="#" class="fa fa-reddit"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2023 <b>Shop Company</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    </body>
 </html>
